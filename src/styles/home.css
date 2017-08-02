@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.homeContainer {
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+    background: url('./house1.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.videoSection {
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBoxHeader {
+    width: 600px;
+    height: 8vh;
+    font-size: 20px;
+    padding-bottom: 30px;
+    /*font-weight: 300;*/
+    text-align: center;
+    /*text-shadow: 0 0 4px #666;*/
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.searchBox {
+    width: 600px;
+    height: 30vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searchBody {
+    width: 600px;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.buy,
+.rent,
+.sell,
+.zestimate {
+    width: 150px;
+    height: 37px;
+    text-align: center;
+    padding: 10px 0 0;
+    margin-bottom: 20px;
+    position: static;
+    left: auto;
+    font-size: 18px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border: solid rgba(255,255,255,.75);
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.buy:hover,
+.rent:hover,
+.sell:hover,
+.zestimate:hover {
+    color: #fff!important;
+    background-color: rgba(0,116,228,.75);
+    border: solid #fff;
+    border-width: 1px;
+}

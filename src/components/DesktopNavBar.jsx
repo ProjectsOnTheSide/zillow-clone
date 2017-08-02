@@ -1,35 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router';
+// import { Link } from 'react-router';
+import '../styles/desktopNavBar.css';
 
 const DesktopNavBar = (props) => {
     return (
         <header className="mainHeader">
-            <a href="#" /> //This will be the zillow logo on the left of nav bar
+            <a href="#" className='mainLogo' />
             <nav className="desktopNav">
-                <Link className="headerLink" to='/buy'>
+                <a className="headerLink" to='/buy'>
                     <span className="buyLink">Buy</span>
-                </Link>
-                <Link className="headerLink" to='/rent'>
+                </a>
+                <a className="headerLink" to='/rent'>
                     <span className="rentLink">Rent</span>
-                </Link>
-                <Link className="headerLink" to='/sell'>
+                </a>
+                <a className="headerLink" to='/sell'>
                     <span className="sellLink">Sell</span>
-                </Link>
-                <Link className="headerLink" to='/mortgages'>
+                </a>
+                <a className="headerLink" to='/mortgages'>
                     <span className="mortgagesLink">Mortgages</span>
-                </Link>
-                <Link className="headerLink" to='/agentfinder'>
+                </a>
+                <a className="headerLink" to='/agentfinder'>
                     <span className="agentFinderLink">Agent Finder</span>
-                </Link>
-                <Link className="headerLink" to='/homedesign'>
+                </a>
+                <a className="headerLink" to='/homedesign'>
                     <span className="homeDesignLink">Home Design</span>
-                </Link>
-                <Link className="headerLink" to='/more'>
+                </a>
+                <a className="headerLink" to='/more'>
                     <span className="moreLink">More</span>
-                </Link>
+                </a>
             </nav>
         </header>
     )
 }
 
-export defualt DesktopNavBar; 
+export default DesktopNavBar; 

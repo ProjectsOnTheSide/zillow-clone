@@ -8,29 +8,21 @@ const Home = (props) => {
     return (
         <div className='homeContainer'>
             <div className='videoSection'>
+                <header className='searchBoxHeader'>
+                    <h1>Find your way home</h1>
+                </header>
                 <section className='searchBox'>
-                    <header className='searchBoxHeader'>
-                        <h1>Find your way home</h1>
-                    </header>
                     <div className='searchBody'>
-                        <button className='buy'>
-                            <h6>Buy</h6>
-                        </button>
-                        <button className='rent'>
-                            <h6>Rent</h6>
-                        </button>
-                        <button className='sell'>
-                            <h6>Sell</h6>
-                        </button>
-                        <button className='zestimate'>
-                            <h6>Zestimate</h6>
-                        </button>
-                        <div className='searchInputAndButton'>
+                        <label className='buy'>Buy</label>
+                        <label className='rent'>Rent</label>
+                        <label className='sell'>Sell</label>
+                        <label className='zestimate'>Zestimate</label>
+                        {/*<div className='searchInputAndButton'>
                             <input placeholder='Enter an address, neighborhood, city or ZIP code' className='searchInput' />
                             <button className='searchButton'>
                                 <h5>Search</h5>
                             </button>
-                        </div>
+                        </div>*/}
                     </div>
                 </section>
             </div>
