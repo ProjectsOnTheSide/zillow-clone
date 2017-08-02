@@ -32,3 +32,9 @@
     margin-top: 18px;
 }
 
+.headerLink:hover {
+    cursor: pointer;
+    font-weight: 300;
+    color: #0074e4;
+}
+
