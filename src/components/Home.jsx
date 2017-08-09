@@ -17,14 +17,15 @@ const Home = (props) => {
                         <label className='rent'>Rent</label>
                         <label className='sell'>Sell</label>
                         <label className='zestimate'>Zestimate</label>
-                        {/*<div className='searchInputAndButton'>
-                            <input placeholder='Enter an address, neighborhood, city or ZIP code' className='searchInput' />
-                            <button className='searchButton'>
-                                <h5>Search</h5>
-                            </button>
-                        </div>*/}
+                    </div>
+                    <div className='searchInputAndButton'>
+                        <input placeholder='Enter an address, neighborhood, city or ZIP code' className='searchInput' type='search' />
+                        <button className='searchButton' type='submit'>
+                            <h5>Search</h5>
+                        </button>
                     </div>
                 </section>
+                
             </div>
         </div>
     )

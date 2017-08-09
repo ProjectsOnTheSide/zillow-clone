@@ -5,16 +5,16 @@ body {
 
 .homeContainer {
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 475px;
+    max-height: 475px;
     background: url('./house1.jpg') center no-repeat;
     background-size: cover;
 }
 
 .videoSection {
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 475px;
+    max-height: 475px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,17 +36,18 @@ body {
 }
 
 .searchBox {
-    width: 600px;
+    width: 700px;
     height: 30vh;
     background-color: transparent;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .searchBody {
-    width: 600px;
-    height: 30vh;
+    width: 700px;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -82,4 +83,29 @@ body {
     background-color: rgba(0,116,228,.75);
     border: solid #fff;
     border-width: 1px;
+}
+
+.searchInputAndButton {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.searchInput {
+    width: 610px;
+    height: 7vh;
+    background-color: white;
+    text-align: left;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.searchButton {
+    position: absolute;
+    margin-left: 18%;
 }

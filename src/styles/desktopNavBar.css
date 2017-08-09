@@ -13,18 +13,18 @@
 }
 
 .desktopNav {
-    width: 50%;
+    width: 60%;
     left: auto;
     top: 0;
     height: 53px;
     position: static;
-    max-height: 48px;
+    height: auto;
     overflow: hidden;
     box-shadow: none;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-content: center;
+    align-content: flex-end;
     z-index: 1;
 }
 
