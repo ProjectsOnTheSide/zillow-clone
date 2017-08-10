@@ -93,6 +93,7 @@ input:focus {
 .searchInputAndButton {
     width: 700px;
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -101,7 +102,7 @@ input:focus {
 
 .searchInput {
     width: 590px;
-    height: 8.5vh;
+    height: 60px;
     background-color: white;
     text-align: left;
     color: black;
@@ -125,6 +126,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    right: 55px;
 }
 
 .searchBtnText {
