@@ -1,11 +1,12 @@
 import React from 'react';
 // import { Link } from 'react-router';
 import '../styles/desktopNavBar.css';
+import MainLogo from '../styles/zillow-logo.png';
 
 const DesktopNavBar = (props) => {
     return (
         <header className="mainHeader">
-            <a href="#" className='mainLogo' />
+            <img src={MainLogo} className='mainLogo' />
             <nav className="desktopNav">
                 <a className="headerLink" to='/buy'>
                     <span className="buyLink">Buy</span>
