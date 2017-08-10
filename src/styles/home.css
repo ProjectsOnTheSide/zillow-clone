@@ -10,9 +10,7 @@ input:focus {
 
 .homeContainer {
     width: 100%;
-    min-height: 475px;
-    max-height: 475px;
-    background: url('./house1.jpg') no-repeat 0 -80px;
+    background: url('./house1.jpg') center no-repeat;
     background-size: cover;
 }
 @media screen and (min-width: 1200px) {
@@ -49,8 +47,8 @@ input:focus {
 
 .videoSection {
     width: 100%;
-    min-height: 475px;
-    max-height: 475px;
+    min-height: 543px;
+    max-height: 543px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,6 +115,7 @@ input:focus {
     background-color: rgba(0,116,228,.75);
     border: solid #fff;
     border-width: 1px;
+    cursor: pointer;
 }
 
 .searchInputAndButton {
@@ -158,8 +157,126 @@ input:focus {
     right: 55px;
 }
 
+.searchButton:hover {
+    cursor: pointer;
+}
+
 .searchBtnText {
     width: 98px;
     text-align: center;
     font-size: 14.5px;
+}
+
+.editHomeFact {
+    width: 100%;
+    height: 60px;
+    background-color: #273f62;
+    opacity: 1;
+    display: inline-block;
+}
+
+.updateText {
+    width: 600px;
+    margin-left: 400px;
+    display: inline-block;
+    margin-top: -6px;
+}
+
+.homeFacts,
+.updateDetails {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.homeFacts:hover,
+.updateDetails:hover,
+.getStarted:hover {
+    cursor: pointer;
+}
+
+.homeFacts {
+    width: 200px;
+    font-weight: 700;
+}
+
+.updateDetails {
+    width: 390px;
+    font-weight: 400;
+}
+
+.getStarted {
+    width: 130px;
+    height: 32px;
+    background-color: #0074e4;
+    color: white;
+    border: none;
+    border-radius: 4.5px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 350px;
+    margin-top: 12.5px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+.editHomeFact {
+    width: 100%;
+    height: 60px;
+    background-color: #273f62;
+    opacity: 1;
+    display: inline-block;
+}
+
+.updateText {
+    width: 600px;
+    margin-left: 200px;
+    display: inline-block;
+    margin-top: -6px;
+}
+
+.homeFacts,
+.updateDetails {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.homeFacts:hover,
+.updateDetails:hover,
+.getStarted:hover {
+    cursor: pointer;
+}
+
+.homeFacts {
+    width: 200px;
+    font-weight: 700;
+}
+
+.updateDetails {
+    width: 390px;
+    font-weight: 400;
+}
+
+.getStarted {
+    width: 130px;
+    height: 32px;
+    background-color: #0074e4;
+    color: white;
+    border: none;
+    border-radius: 4.5px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 200px;
+    margin-top: 12.5px;
+}
 }
