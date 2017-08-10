@@ -12,8 +12,9 @@ input:focus {
     width: 100%;
     min-height: 475px;
     max-height: 475px;
-    background: url('./house1.jpg') center no-repeat;
+    background: url('./house1.jpg') no-repeat 0 -150px;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .videoSection {
