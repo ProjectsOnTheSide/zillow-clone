@@ -3,21 +3,27 @@
     height: 53px;
 }
 
+img {
+    display: inline-block;
+}
+
 .mainLogo {
-    width: 50px;
-    height: 60px;
-    background: url('../styles/logo.svg') center no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: center no-repeat;
     position: relative;
     z-index: 1020;
+    left: 255px;
     vertical-align: top;
 }
 
 .desktopNav {
-    width: 60%;
+    width: 38%;
     left: auto;
     top: 0;
     height: 53px;
-    position: static;
+    position: relative;
+    margin-left: 250px;
     height: auto;
     overflow: hidden;
     box-shadow: none;
@@ -25,7 +31,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-content: flex-end;
-    z-index: 1;
+    z-index: -1;
 }
 
 .headerLink {
