@@ -19,9 +19,9 @@ const Home = (props) => {
                         <label className='zestimate'>Zestimate</label>
                     </div>
                     <div className='searchInputAndButton'>
-                        <input placeholder='Enter an address, neighborhood, city or ZIP code' className='searchInput' type='search' />
+                        <input placeholder='Enter an address, neighborhood, city or ZIP code' className='searchInput' type='text' />
                         <button className='searchButton' type='submit'>
-                            <h5>Search</h5>
+                            <h5 className='searchBtnText'>Search</h5>
                         </button>
                     </div>
                 </section>

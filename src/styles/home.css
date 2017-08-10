@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
 .homeContainer {
     width: 100%;
     min-height: 475px;
@@ -95,17 +100,35 @@ body {
 }
 
 .searchInput {
-    width: 610px;
-    height: 7vh;
+    width: 590px;
+    height: 8.5vh;
     background-color: white;
     text-align: left;
     color: black;
-    border-radius: 10px;
+    border-radius: 7px;
     border: none;
-    
+    font-size: 18px;
+    padding-left: 20px;
 }
 
 .searchButton {
     position: absolute;
-    margin-left: 18%;
+    margin-left: 19%;
+    background-color: #0074e4;
+    width: 108px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.searchBtnText {
+    width: 98px;
+    text-align: center;
+    font-size: 14.5px;
 }
