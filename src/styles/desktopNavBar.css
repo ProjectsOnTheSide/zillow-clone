@@ -52,43 +52,43 @@ img {
 
 @media screen and (max-width: 1600px) {
     .mainLogo {
-    width: 100px;
-    height: 100px;
-    background-size: center no-repeat;
-    position: relative;
-    z-index: 1020;
-    left: 232px;
-    vertical-align: top;
-}
+        width: 100px;
+        height: 100px;
+        background-size: center no-repeat;
+        position: relative;
+        z-index: 1020;
+        left: 232px;
+        vertical-align: top;
+    }
 
-.mainLogo:hover {
-    cursor: pointer;
-}
+    .mainLogo:hover {
+        cursor: pointer;
+    }
 
-.desktopNav {
-    width: 43%;
-    left: auto;
-    top: 0;
-    height: 53px;
-    position: relative;
-    margin-left: 250px;
-    height: auto;
-    overflow: hidden;
-    box-shadow: none;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: flex-end;
-    z-index: -1;
-}
+    .desktopNav {
+        width: 43%;
+        left: auto;
+        top: 0;
+        height: 53px;
+        position: relative;
+        margin-left: 250px;
+        height: auto;
+        overflow: hidden;
+        box-shadow: none;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: flex-end;
+        z-index: -1;
+    }
 
-.headerLink {
-    margin-top: 18px;
-}
+    .headerLink {
+        margin-top: 18px;
+    }
 
-.headerLink:hover {
-    cursor: pointer;
-    font-weight: 300;
-    color: #0074e4;
-}
+    .headerLink:hover {
+        cursor: pointer;
+        font-weight: 300;
+        color: #0074e4;
+    }
 }
