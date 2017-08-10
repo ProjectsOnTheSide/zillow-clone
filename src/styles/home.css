@@ -42,17 +42,15 @@ input:focus {
 
 .searchBox {
     width: 700px;
-    height: 30vh;
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    align-content: space-between;
 }
 
 .searchBody {
     width: 700px;
-    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
