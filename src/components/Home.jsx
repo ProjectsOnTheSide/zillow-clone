@@ -25,7 +25,13 @@ const Home = (props) => {
                         </button>
                     </div>
                 </section>
-                
+            </div>
+            <div className='editHomeFact'>
+                <div className='updateText'>
+                    <h3 className='homeFacts'>Edit your home facts</h3>
+                    <h4 className='updateDetails'>Update home details faction into your Zestimate.</h4>
+                </div>
+                <button className='getStarted'>Get started</button>
             </div>
         </div>
     )
