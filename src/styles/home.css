@@ -12,36 +12,36 @@ input:focus {
     width: 100%;
     min-height: 475px;
     max-height: 475px;
-    background: url('./house1.jpg') no-repeat 0 0px;
+    background: url('./house1.jpg') no-repeat 0 -80px;
     background-size: cover;
 }
 @media screen and (min-width: 1200px) {
     .homeContainer {
-    background: url('./house1.jpg') no-repeat 0 -50px;
+    background: url('./house1.jpg') no-repeat 0 -130px;
     background-size: cover;
 }
 }
 @media screen and (min-width: 1350px) {
     .homeContainer {
-    background: url('./house1.jpg') no-repeat 0 -100px;
+    background: url('./house1.jpg') no-repeat 0 -160px;
     background-size: cover;
 }
 }
 @media screen and (min-width: 1500px) {
     .homeContainer {
-    background: url('./house1.jpg') no-repeat 0 -150px;
+    background: url('./house1.jpg') no-repeat 0 -190px;
     background-size: cover;
 }
 }
 @media screen and (min-width: 1650px) {
     .homeContainer {
-    background: url('./house1.jpg') no-repeat 0 -200px;
+    background: url('./house1.jpg') no-repeat 0 -235px;
     background-size: cover;
 }
 }
 @media screen and (min-width: 1750px) {
     .homeContainer {
-    background: url('./house1.jpg') no-repeat 0 -250px;
+    background: url('./house1.jpg') no-repeat 0 -270px;
     background-size: cover;
 }
 }
