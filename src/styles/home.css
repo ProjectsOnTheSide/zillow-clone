@@ -12,9 +12,40 @@ input:focus {
     width: 100%;
     min-height: 475px;
     max-height: 475px;
-    background: url('./house1.jpg') no-repeat 0 -250px;
-    background-attachment: fixed;
+    background: url('./house1.jpg') no-repeat 0 0px;
+    background-size: cover;
 }
+@media screen and (min-width: 1200px) {
+    .homeContainer {
+    background: url('./house1.jpg') no-repeat 0 -50px;
+    background-size: cover;
+}
+}
+@media screen and (min-width: 1350px) {
+    .homeContainer {
+    background: url('./house1.jpg') no-repeat 0 -100px;
+    background-size: cover;
+}
+}
+@media screen and (min-width: 1500px) {
+    .homeContainer {
+    background: url('./house1.jpg') no-repeat 0 -150px;
+    background-size: cover;
+}
+}
+@media screen and (min-width: 1650px) {
+    .homeContainer {
+    background: url('./house1.jpg') no-repeat 0 -200px;
+    background-size: cover;
+}
+}
+@media screen and (min-width: 1750px) {
+    .homeContainer {
+    background: url('./house1.jpg') no-repeat 0 -250px;
+    background-size: cover;
+}
+}
+
 
 .videoSection {
     width: 100%;
