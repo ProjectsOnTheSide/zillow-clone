@@ -6,7 +6,7 @@ import MainLogo from '../styles/zillow-logo.png';
 const DesktopNavBar = (props) => {
     return (
         <header className="mainHeader">
-            <img src={MainLogo} className='mainLogo' alt='' />
+            <img src={ MainLogo } className='mainLogo' alt='' />
             <nav className="desktopNav">
                 <a className="headerLink" to='/buy'>
                     <span className="buyLink">Buy</span>

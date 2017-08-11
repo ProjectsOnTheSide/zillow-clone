@@ -18,5 +18,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectsOnTheSide/zillow-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectsOnTheSide/zillow-clone/issues"
+  },
+  "homepage": "https://github.com/ProjectsOnTheSide/zillow-clone#readme",
+  "devDependencies": {}
 }
