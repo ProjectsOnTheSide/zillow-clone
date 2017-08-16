@@ -1,0 +1,24 @@
+.mainContainer {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.textTitle {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.text {
+        text-align: center;
+    margin-bottom: 0;
+}
+
+.homesAvailable {
+    text-align: center;
+    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+}
