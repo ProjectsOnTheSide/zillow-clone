@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+button {
+    outline: none;
+    cursor: pointer;
+}
+
 textarea:focus,
 input:focus {
     outline: none;
