@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/main.css';
 import '../styles/home.css';
 import MiddleHomeSection from './MiddleHomeSection.jsx';
+import InfoFooter from './InfoFooter.jsx';
 
 const Home = (props) => {
     //Probably need to pass down image from api or amazon on props and set image here
@@ -37,6 +38,7 @@ const Home = (props) => {
                 </div>  
             </div>
             <MiddleHomeSection />
+            <InfoFooter />
         </div>
     )
 }
