@@ -4,6 +4,7 @@ import '../styles/main.css';
 import '../styles/home.css';
 import MiddleHomeSection from './MiddleHomeSection.jsx';
 import InfoFooter from './InfoFooter.jsx';
+import Footer from './Footer.jsx';
 
 const Home = (props) => {
     //Probably need to pass down image from api or amazon on props and set image here
@@ -39,6 +40,7 @@ const Home = (props) => {
             </div>
             <MiddleHomeSection />
             <InfoFooter />
+            <Footer />
         </div>
     )
 }
